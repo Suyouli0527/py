@@ -1,1 +1,2 @@
 Thu-python_learning
+这个文件是陈思丞有关清华大学计算机程序设计进阶（python）的个人笔记与大作业
