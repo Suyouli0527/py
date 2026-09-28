@@ -1,8 +1,8 @@
-#本节课程是有关于**数据结构与类型**的简要介绍
+# 本节课程是有关于**数据结构与类型**的简要介绍
 
-##2.1**数据类型**
+## 2.1**数据类型**
 
-##算术运算
+## 算术运算
 ```python
     3**2=9
     5/2=2.5
@@ -13,9 +13,9 @@
 eg:5/-2+int(5.0*(5.0/2))=9.5
 ```
 
-##程序结构
+## 程序结构
 
-###关系结构与逻辑结构
+### 关系结构与逻辑结构
 
 1. 关系运算符（与cpp相同）
 
@@ -131,4 +131,24 @@ print(n ^ 0)  # 7
 
 Python 中按位取反满足 `~x == -x - 1`，所以 `~5` 的结果是 `-6`。
 
-函数
+## 函数
+
+```python
+def 函数名（形参表）:
+    函数体
+
+def DayDreaming(salary , cars , houses):
+    salary = salary * 3
+    cars += 2
+    houses += 1
+def main():
+    salary = 6000
+    ncars = 0
+    nhouses = 0
+    DayDreanming(salary, ncars , nhouses)
+    print(salary, ncars , bhouses)
+
+#out:slary = 6000, ncars = 0, nhouses = 0;、
+#注意函数的传递，单向值传递，实参——》形参
+
+```
